@@ -1,0 +1,9 @@
+[submodule "open-transfer/lib/forge-std"]
+	path = open-transfer/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "merge/lib/forge-std"]
+	path = merge/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "lifeforms/lib/forge-std"]
+	path = lifeforms/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
