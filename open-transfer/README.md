@@ -20,6 +20,19 @@ foundryup
 forge build
 ```
 
+## テスト
+
+```bash
+# 通常のテスト（フォークテストを除外）
+forge test --no-match-path test/OpenTransfer.fork.t.sol
+
+# 詳細出力付き
+forge test --no-match-path test/OpenTransfer.fork.t.sol -vvv
+
+# Ethereum mainnet をフォークしてテスト（owner() 関数のテスト用）
+forge test --match-path test/OpenTransfer.fork.t.sol --fork-url https://ethereum-rpc.publicnode.com -vvv
+```
+
 ## ローカルデプロイ
 
 ```bash
